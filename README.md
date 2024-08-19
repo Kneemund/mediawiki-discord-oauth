@@ -1,13 +1,16 @@
-# DiscordOAuth Mediawiki Extension
+# DiscordOAuth MediaWiki Extension
 
-An extension that adds an authentication provider for Discord to WSOAuth.
+A MediaWiki extension that adds an authentication provider for Discord to WSOAuth.
 
 ## Dependencies
 
+MediaWiki >= 1.35 \
+(Tested with MediaWiki 1.39)
+
 ### Extensions
 
--   [WSOAuth](https://www.mediawiki.org/wiki/Extension:WSOAuth)
--   [PluggableAuth](https://www.mediawiki.org/wiki/Extension:PluggableAuth)
+-   [WSOAuth](https://www.mediawiki.org/wiki/Extension:WSOAuth) >= 6.0
+-   [PluggableAuth](https://www.mediawiki.org/wiki/Extension:PluggableAuth) >= 7.0
 
 ### PHP (Composer)
 
