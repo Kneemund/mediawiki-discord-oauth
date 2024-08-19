@@ -1,0 +1,33 @@
+{
+    "name": "DiscordOAuth",
+    "version": "1.0.0",
+    "author": ["[https://github.com/Kneemund Moritz Mechelk]"],
+    "url": "https://github.com/Kneemund/mediawiki-discord-oauth",
+    "descriptionmsg": "discordoauth-discord-description",
+    "license-name": "MIT",
+    "type": "extension",
+    "requires": {
+        "MediaWiki": ">= 1.35.0",
+        "extensions": {
+            "PluggableAuth": ">= 6.0",
+            "WSOAuth": ">= 7.0.0"
+        }
+    },
+    "MessagesDirs": {
+        "DiscordOAuth": ["i18n"]
+    },
+    "AutoloadNamespaces": {
+        "DiscordOAuth\\": "src/"
+    },
+    "Hooks": {
+        "WSOAuthGetAuthProviders": "DiscordOAuth\\Hooks::onWSOAuthGetAuthProviders"
+    },
+    "config": {
+        "DiscordGuildId": {
+            "value": null,
+            "descriptionmsg": "discordoauth-discord-guild-id-description"
+        }
+    },
+    "load_composer_autoloader": true,
+    "manifest_version": 2
+}

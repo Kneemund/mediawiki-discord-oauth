@@ -1,0 +1,12 @@
+{
+    "@metadata": {
+        "authors": ["Moritz Mechelk"]
+    },
+    "discordoauth-login-button-label": "Login with Discord",
+    "discordoauth-login-error-cancelled": "The authorization with Discord was cancelled.",
+    "discordoauth-login-error-missing-state": "Discord did not return an authorization state.",
+    "discordoauth-login-error-no-member": "You are not a member of the Discord server. Please join the server and try again.",
+    "discordoauth-login-error-discord-api": "An error occurred while communicating with the Discord API.",
+    "discordoauth-discord-description": "Discord OAuth provider for WSOAuth.",
+    "discordoauth-discord-guild-id-description": "Integer. If set, users must be in this guild to be able to log in."
+}
