@@ -94,7 +94,7 @@ class DiscordOAuthProvider extends AuthProvider
             }
 
             return [
-                'name' => $user->getUsername(),
+                'name' => $user->getId(),
                 'realname' => $user->getUsername(),
             ];
         } catch (\Exception $e) {
